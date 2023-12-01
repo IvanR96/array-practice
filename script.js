@@ -1,6 +1,14 @@
-let user = {
-    name: "John",
-    age: 30
-};
+const para = document.createElement('p')
 
-console.log(user.age);
+para.innerText = "Hello There Welcome To JS."
+
+
+
+
+
+
+
+
+
+
+
