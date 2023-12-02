@@ -1,25 +1,15 @@
-const link = document.querySelector('a');
 
-link.textContent = 'Mozilla Developer Network';
+const user = {};
 
-link.href = 'https://www.developer.mozilla.org';
+user.name = 'John';
 
-const sect = document.querySelector('section');
+user.surname = "Smith";
 
-const para = document.createElement('p');
+user.name ='Pete';
 
-para.textContent = 'We Hope You Enjoyed the Ride.';
+delete user.name
 
-sect.appendChild(para);
-
-const text = document.createTextNode(" — the premier source for web development knowledge.");
-
-const linkPara = document.querySelector('p');
-
-linkPara.appendChild(text);
-
-
-
+console.log(user);
 
 
 
