@@ -78,6 +78,6 @@ const book = new theHobbit ('The hobbit', "J.R.R. Tolkien", '295 pages' , 'not r
 Object.getPrototypeOf(book) === theHobbit.prototype;
 
 
-
+book.valueOf()
 
 
