@@ -80,6 +80,7 @@ Object.getPrototypeOf(book) === theHobbit.prototype;
 book.valueOf()
 */
 
+/*
 function Hero(name, level){
   this.name = name;
   this.level = level;
@@ -90,3 +91,4 @@ let hero1 = new Hero('Kratos', 100);
 Hero.prototype.greet = function(){
   return `${this.name} says hello.`;
 }
+*/
