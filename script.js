@@ -56,7 +56,7 @@
     //const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 
 
-
+/*
 function theHobbit(title, author, pages, read){
   this.title = title;
   this.author = author;
@@ -66,7 +66,6 @@ function theHobbit(title, author, pages, read){
     return title + ' by ' + author + ", " + pages + ', ' + read;
 
   };
-sda
 
 
 
@@ -79,5 +78,15 @@ Object.getPrototypeOf(book) === theHobbit.prototype;
 
 
 book.valueOf()
+*/
 
+function Hero(name, level){
+  this.name = name;
+  this.level = level;
+}
 
+let hero1 = new Hero('Kratos', 100);
+
+Hero.prototype.greet = function(){
+  return `${this.name} says hello.`;
+}
